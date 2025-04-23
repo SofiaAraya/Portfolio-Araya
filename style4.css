@@ -1,0 +1,37 @@
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+@font-face {
+    font-family: 'PleaseWriteMeASong';
+    src: url('fonts/PleaseWriteMeASong.woff2') format('woff2'),
+         url('fonts/PleaseWriteMeASong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+    
+    font-family: 'PleaseWriteMeASong', sans-serif;
+    background: linear-gradient(360deg,rgba(52, 117, 119, 1) 0%, rgba(235, 235, 235, 1) 16%, rgba(235, 235, 235, 1) 87%, rgba(52, 117, 119, 1) 100%);
+    color: #347577;
+  }
+  
+ nav {
+    background-color: #B1D0C0;
+    padding: 100vh;
+    align-items: center; 
+  }
+  
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ nav li a {
+    text-decoration: none;
+    color: #2d5c46;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
